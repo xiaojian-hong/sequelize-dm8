@@ -72,5 +72,18 @@ module.exports = {
       idle: env.SEQ_PG_POOL_IDLE || env.SEQ_POOL_IDLE || 3000
     },
     minifyAliases: env.SEQ_PG_MINIFY_ALIASES
+  },
+
+  dmdb: {
+    database: env.SEQ_DMDB_DB || env.SEQ_DB || 'sequelize_test',
+    username: env.SEQ_DMDB_USER || env.SEQ_USER || 'postgres',
+    password: env.SEQ_DMDB_PW || env.SEQ_PW || 'postgres',
+    host: env.SEQ_DMDB_HOST || env.SEQ_HOST || '127.0.0.1',
+    port: env.SEQ_DMDB_PORT || env.SEQ_PORT || 5236,
+    pool: {
+      max: env.SEQ_PG_POOL_MAX || env.SEQ_POOL_MAX || 5,
+      idle: env.SEQ_PG_POOL_IDLE || env.SEQ_POOL_IDLE || 3000
+    },
+    minifyAliases: env.SEQ_PG_MINIFY_ALIASES
   }
 };
