@@ -1,7 +1,7 @@
 {
   "name": "sequelize-dm8",
-  "description": "Multi dialect ORM for Node.JS",
-  "version": "0.0.1-development",
+  "description": "DMDB ORM for Node.JS",
+  "version": "0.0.3-development",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     "Sascha Depold <sascha@depold.com>",
