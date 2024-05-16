@@ -1,7 +1,7 @@
 {
   "name": "sequelize-dm8",
   "description": "DMDB ORM for Node.JS",
-  "version": "0.0.3-development",
+  "version": "5.0.1",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     "Sascha Depold <sascha@depold.com>",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "https://github.com/xiaojian-hong/sequelize-dm8"
   },
   "bugs": {
-    "url": "https://github.com/sequelize/sequelize/issues"
+    "url": "https://github.com/xiaojian-hong/sequelize-dm8"
   },
   "homepage": "https://sequelize.org/",
   "main": "index.js",
@@ -124,7 +124,7 @@
     ]
   },
   "publishConfig": {
-    "tag": "v5"
+    "tag": "latest"
   },
   "scripts": {
     "lint": "eslint lib test --quiet",
