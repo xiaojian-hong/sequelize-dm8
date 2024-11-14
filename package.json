@@ -1,7 +1,7 @@
 {
   "name": "sequelize-dm8",
   "description": "DMDB ORM for Node.JS",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     "Sascha Depold <sascha@depold.com>",
